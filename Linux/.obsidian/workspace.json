@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "755eef8782dec3e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab357234c3a9738b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1c7b009d1a2e520",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7816dfa9540fedc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f9a40932f0c9a70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cab898f8c2221f93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "032375dfd67371e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "519ef31066c7ee50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5
+  },
+  "right": {
+    "id": "11919052cfe72ef4",
+    "type": "split",
+    "children": [
+      {
+        "id": "46a06eff1fbfba08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77a9ccfbd82a6435",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FIND.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de FIND"
+            }
+          },
+          {
+            "id": "9b22ed56de6f9417",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "FIND.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de FIND"
+            }
+          },
+          {
+            "id": "0f69959594196ace",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "a3ffb277244d6303",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "FIND.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de FIND"
+            }
+          },
+          {
+            "id": "8051698723d0112e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 620.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f1c7b009d1a2e520",
+  "lastOpenFiles": [
+    "FIND.md",
+    "Combinaciones potentes entre estos comandos.md",
+    "WC.md",
+    "HEAD y TAIL.md",
+    "UNIQ.md",
+    "CUT.md",
+    "SOR.md",
+    "SED.md",
+    "TAR.md",
+    "AWK.md",
+    "Bienvenido.md"
+  ]
+}
