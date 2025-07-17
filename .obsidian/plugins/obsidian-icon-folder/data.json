@@ -87,35 +87,6 @@
   "Tips Administracion/Cursos Infortec": "🧑‍🏫",
   "Tips Administracion/Cursos Infortec/Analisis Forense": "🔎",
   "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md": "🐧",
-  "Tips Administracion/Comandos Importantes": {
-    "iconName": "LiSquareChevronLeft",
-    "iconColor": "#ab3030"
-  },
-  "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md": {
-    "iconName": "LiUsers",
-    "iconColor": "#250ce4"
-  },
-  "Tips Administracion/Comandos Importantes/Comandos Utiles con Find.md": {
-    "iconName": "LiGlasses",
-    "iconColor": "#c01616"
-  },
-  "Tips Administracion/Comandos Importantes/Conectar SSH mediante key.md": {
-    "iconName": "LiAppWindowMac",
-    "iconColor": "#c81919"
-  },
-  "Tips Administracion/Comandos Importantes/Comandos que te salvan el dia.md": {
-    "iconName": "LiCrown",
-    "iconColor": "#cbab3a"
-  },
-  "Tips Administracion/Comandos Importantes/Conectar WSL via SSH.md": {
-    "iconName": "LiAppWindow",
-    "iconColor": "#db0ad4"
-  },
-  "Tips Administracion/Comandos Importantes/Manipular Procesos.md": "LiActivitySquare",
-  "Tips Administracion/Comandos Importantes/Vim Cheat Sheet.md": {
-    "iconName": "LiEdit2",
-    "iconColor": "#dd1d1d"
-  },
   "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense Avanzado en sistemas Linux.md": "🐧",
   "Infortec/Usuarios/Apuntes usuarios": "LiFolder",
   "Infortec/Filesystems/Migrar disco (pvmove) multipath (RAW) en Linux (proyectos de liberación de cabina) OLDZHAY - Atlas Wiki @ Kyndryl.md": {
@@ -124,11 +95,6 @@
   },
   "Infortec/Usuarios/Revisar los usuarios que faltan en las Maquinas.md": "💪",
   "Infortec/Filesystems/Crear y montar los FIleSystem desde 0.md": "📓",
-  "Tips Administracion/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md": {
-    "iconName": "LiAppWindow",
-    "iconColor": "#ed0cc4"
-  },
-  "Tips Administracion/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md": "⚙",
   "Tips Administracion/Diagnosticar/Diagnosticar qué parte de la red está fallando.md": {
     "iconName": "LiNetwork",
     "iconColor": "#ca4e4e"
@@ -137,9 +103,43 @@
     "iconName": "LiHardDrive",
     "iconColor": "#e13d3d"
   },
-  "Tips Administracion/Comandos Importantes/Kung Fu Bash Scripting Tricks Resumen.md": "🧠",
   "Infortec/TCPDUMP": "LiFolder",
-  "Tips Administracion/Comandos Importantes/Sort Command in Linux 10 Useful Examples.md": "LiSortAsc",
   "Infortec/Usuarios/Usuario ftp.md": "LiFileInput",
-  "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md": "🪟"
+  "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md": "🪟",
+  "Linux/Comandos Importantes": {
+    "iconName": "LiSquareChevronLeft",
+    "iconColor": "#ab3030"
+  },
+  "Linux/Comandos Importantes/Comandos que te salvan el dia.md": {
+    "iconName": "LiCrown",
+    "iconColor": "#cbab3a"
+  },
+  "Linux/Comandos Importantes/Comandos Utiles con Find.md": {
+    "iconName": "LiGlasses",
+    "iconColor": "#c01616"
+  },
+  "Linux/Comandos Importantes/Conectar SSH mediante key.md": {
+    "iconName": "LiAppWindowMac",
+    "iconColor": "#c81919"
+  },
+  "Linux/Comandos Importantes/Conectar WSL via SSH.md": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#db0ad4"
+  },
+  "Linux/Comandos Importantes/Manipular Procesos.md": "LiActivitySquare",
+  "Linux/Comandos Importantes/Kung Fu Bash Scripting Tricks Resumen.md": "🧠",
+  "Linux/Comandos Importantes/Sort Command in Linux 10 Useful Examples.md": "LiSortAsc",
+  "Linux/Comandos Importantes/Usuarios y Grupos.md": {
+    "iconName": "LiUsers",
+    "iconColor": "#250ce4"
+  },
+  "Linux/Comandos Importantes/Vim Cheat Sheet.md": {
+    "iconName": "LiEdit2",
+    "iconColor": "#dd1d1d"
+  },
+  "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md": "⚙",
+  "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#ed0cc4"
+  }
 }

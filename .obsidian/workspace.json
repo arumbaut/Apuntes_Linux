@@ -38,17 +38,17 @@
             }
           },
           {
-            "id": "b81b02e3d925f8ff",
+            "id": "d2b24a31fe739f0f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
-                "bFile": "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
-                "aRef": ""
+                "file": "Linux/Comandos Importantes/getent.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Usuarios y Grupos"
+              "icon": "lucide-file",
+              "title": "getent"
             }
           }
         ],
@@ -109,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.5
+    "width": 357.5
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -213,8 +213,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b81b02e3d925f8ff",
+  "active": "33a1ac7c0bbc241b",
   "lastOpenFiles": [
+    "Infortec/Usuarios/Usuario ftp.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
@@ -226,25 +227,24 @@
     "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
     "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
     "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
-    "Infortec/Usuarios/Usuario ftp.md",
     "Linux/AWK.md",
     "Linux/CUT.md",
     "Linux/SED.md",
     "Linux/HEAD y TAIL.md",
     "Linux/TAR.md",
     "Linux/FIND.md",
-    "Tips Administracion/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
-    "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
+    "Linux/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
+    "Linux/Comandos Importantes/Usuarios y Grupos.md",
     "Infortec/Filesystems/Proceso Extender un filesystem.md",
-    "Tips Administracion/Comandos Importantes/Generar un par de claves SSH.md",
+    "Linux/Comandos Importantes/Generar un par de claves SSH.md",
     "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
-    "Tips Administracion/Comandos Importantes/getent.md",
-    "Tips Administracion/Comandos Importantes/Vim Cheat Sheet.md",
-    "Tips Administracion/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
-    "Tips Administracion/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
-    "Tips Administracion/Comandos Importantes/POWERSHELL"
+    "Linux/Comandos Importantes/getent.md",
+    "Linux/Comandos Importantes/Vim Cheat Sheet.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
+    "Linux/Comandos Importantes/POWERSHELL"
   ]
 }
