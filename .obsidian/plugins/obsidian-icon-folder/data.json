@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
+      "🪟",
+      "LiFileInput",
       "LiSortAsc",
       "LiFolder",
-      "🧠",
-      "⚙",
-      "📓"
+      "🧠"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -139,5 +139,7 @@
   },
   "Tips Administracion/Comandos Importantes/Kung Fu Bash Scripting Tricks Resumen.md": "🧠",
   "Infortec/TCPDUMP": "LiFolder",
-  "Tips Administracion/Comandos Importantes/Sort Command in Linux 10 Useful Examples.md": "LiSortAsc"
+  "Tips Administracion/Comandos Importantes/Sort Command in Linux 10 Useful Examples.md": "LiSortAsc",
+  "Infortec/Usuarios/Usuario ftp.md": "LiFileInput",
+  "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md": "🪟"
 }

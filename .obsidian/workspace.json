@@ -10,18 +10,49 @@
           {
             "id": "f2f1c89cbfa3d511",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips Administracion/Comandos Importantes/Generar un par de claves SSH.md",
+                "file": "Infortec/Usuarios/Usuario ftp.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Usuario ftp"
+            }
+          },
+          {
+            "id": "a1f6af129a4676ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/AWK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generar un par de claves SSH"
+              "title": "AWK"
+            }
+          },
+          {
+            "id": "b81b02e3d925f8ff",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
+                "bFile": "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Usuarios y Grupos"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ftp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 467.5
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -166,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 593.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,25 +213,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33a1ac7c0bbc241b",
+  "active": "b81b02e3d925f8ff",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
+    "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense Avanzado en sistemas Linux.md",
+    "Infortec/Filesystems/Proceso Crear un file sistem.md",
+    "Infortec/Usuarios/Creacion de Usuarios..md",
+    "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
+    "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
+    "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
+    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Linux/AWK.md",
+    "Linux/CUT.md",
+    "Linux/SED.md",
+    "Linux/HEAD y TAIL.md",
+    "Linux/TAR.md",
+    "Linux/FIND.md",
+    "Tips Administracion/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
+    "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
+    "Infortec/Filesystems/Proceso Extender un filesystem.md",
+    "Tips Administracion/Comandos Importantes/Generar un par de claves SSH.md",
+    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
     "Tips Administracion/Comandos Importantes/getent.md",
     "Tips Administracion/Comandos Importantes/Vim Cheat Sheet.md",
-    "Tips Administracion/Comandos Importantes/Usuarios y Grupos.md",
     "Tips Administracion/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
     "Tips Administracion/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
-    "Tips Administracion/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
-    "Tips Administracion/Comandos Importantes/POWERSHELL",
-    "Clippings/ChatGPT 3.md",
-    "Clippings/ChatGPT 2.md",
-    "Clippings/ChatGPT 1.md",
-    "Tips Administracion/Comandos Importantes/Comando para contar lineas caracteres y Bytes.md",
-    "Tips Administracion/Comandos Importantes/Sort Command in Linux 10 Useful Examples.md"
+    "Tips Administracion/Comandos Importantes/POWERSHELL"
   ]
 }
