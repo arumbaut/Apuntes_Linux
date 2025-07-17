@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
+                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FingerPrinting"
+              "title": "Fuzzing de directorios Enumeracion de Usuarios"
             }
           }
         ],
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -239,8 +240,10 @@
   },
   "active": "27abe1b6954a1283",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+    "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
     "2025-07-17.md",
     "Infortec/Usuarios/Usuario ftp.md",
@@ -264,8 +267,6 @@
     "Linux/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
     "Linux/Comandos Importantes/Usuarios y Grupos.md",
     "Infortec/Filesystems/Proceso Extender un filesystem.md",
-    "Linux/Comandos Importantes/Generar un par de claves SSH.md",
-    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
