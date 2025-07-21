@@ -57,12 +57,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+                "file": "Linux/AWK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fuzzing de directorios Enumeracion de Usuarios"
+              "title": "AWK"
             }
           }
         ],
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parcheo",
+                "query": "groupadd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
-    "collapsed": true
+    "width": 357.5
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -240,33 +239,33 @@
   },
   "active": "27abe1b6954a1283",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
+    "Linux/HEAD y TAIL.md",
+    "Linux/CUT.md",
+    "Linux/Combinaciones potentes entre estos comandos.md",
+    "Linux/Comandos Importantes/Usuarios y Grupos.md",
+    "Infortec/Usuarios/Creacion de Usuarios..md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
+    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
+    "Infortec/Filesystems/Proceso Extender un filesystem.md",
+    "Tips Administracion/Diagnosticar/PLAN PARA GESTIÓN DE ESPACIO EN DISCO CRÍTICO.md",
+    "Infortec/Filesystems/¿Qué es un Logical Volume (LV).md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
     "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
     "2025-07-17.md",
-    "Infortec/Usuarios/Usuario ftp.md",
     "Linux/Comandos Importantes/getent.md",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense Avanzado en sistemas Linux.md",
     "Infortec/Filesystems/Proceso Crear un file sistem.md",
-    "Infortec/Usuarios/Creacion de Usuarios..md",
-    "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
     "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
     "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
-    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
     "Linux/AWK.md",
-    "Linux/CUT.md",
-    "Linux/SED.md",
-    "Linux/HEAD y TAIL.md",
-    "Linux/TAR.md",
-    "Linux/FIND.md",
-    "Linux/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
-    "Linux/Comandos Importantes/Usuarios y Grupos.md",
-    "Infortec/Filesystems/Proceso Extender un filesystem.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
