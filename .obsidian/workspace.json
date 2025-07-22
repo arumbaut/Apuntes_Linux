@@ -69,15 +69,14 @@
             "id": "830cc3cf29d71cb5",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/appearance.json",
-                "bFile": ".obsidian/appearance.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: appearance.json"
+              "icon": "lucide-file",
+              "title": "Seguridad de Aplicaciones Webs"
             }
           }
         ],
@@ -138,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 357.5,
+    "collapsed": true
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -254,6 +254,12 @@
   },
   "active": "830cc3cf29d71cb5",
   "lastOpenFiles": [
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
+    "Linux/Nmap.md",
     "conflict-files-obsidian-git.md",
     "Infortec/Filesystems/Proceso Crear un file sistem.md",
     "Linux/TLDR alternativa a man mas simple.md",
@@ -274,12 +280,6 @@
     "Linux/CUT.md",
     "Linux/Combinaciones potentes entre estos comandos.md",
     "Linux/Comandos Importantes/Usuarios y Grupos.md",
-    "Infortec/Usuarios/Usuario ftp.md",
-    "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
-    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
-    "Infortec/Filesystems/Proceso Extender un filesystem.md",
-    "Tips Administracion/Diagnosticar/PLAN PARA GESTIÓN DE ESPACIO EN DISCO CRÍTICO.md",
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
