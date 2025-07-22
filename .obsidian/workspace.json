@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Seguridad de Aplicaciones Webs"
+              "title": "Ejercicios Practico"
             }
           }
         ],
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lvcreate",
+                "query": "passwor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -254,32 +254,32 @@
   },
   "active": "830cc3cf29d71cb5",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
+    "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
+    "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
+    "Infortec/CRQs 1/Desmontaje NFS/Desmontaje sencillo.md",
+    "Infortec/CRQs 1/Ampliacion de vg/Ampliacion LUNS.md",
+    "Infortec/Historico/Consulta historico root.md",
+    "Infortec/Historico/Consulta historico.md",
+    "Infortec/Comando para hacer pruebas con los passwords de los usuarios.md",
+    "Infortec/Alias Importantes en ADM00001.md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Infortec/Usuarios/Revisar los usuarios que faltan en las Maquinas.md",
+    "Infortec/Usuarios/Resetear la password en todas la maquinas.md",
+    "Infortec/Abrir casos con soporte/WEBS APERTURA DE CASOS.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+    "Infortec/RSA/CREAR Y RESETEAR USUARIO RSA.md",
+    "Infortec/Usuarios/Creacion de Usuarios..md",
+    "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
+    "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
+    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
+    "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
+    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
     "Linux/Nmap.md",
-    "conflict-files-obsidian-git.md",
-    "Infortec/Filesystems/Proceso Crear un file sistem.md",
-    "Linux/TLDR alternativa a man mas simple.md",
-    "Infortec/Filesystems/¿Qué es un Logical Volume (LV).md",
-    "Infortec/Usuarios/Creacion de Usuarios..md",
-    "Infortec/Comandos/Creacion de LV con tamaño del PV.md",
-    "Infortec/Filesystems/¿Qué es un Physical Volume (PV).md",
-    "Infortec/Usuarios/Revisar los usuarios que faltan en las Maquinas.md",
-    "Infortec/Usuarios/Resetear la pas en todas la maquinas.md",
-    "Linux/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
-    "Linux/AWK.md",
-    "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md",
-    "Infortec/Alias Importantes en ADM00001.md",
-    "Linux/SED.md",
-    "Linux/WC.md",
-    "Linux/SOR.md",
-    "Linux/HEAD y TAIL.md",
-    "Linux/CUT.md",
-    "Linux/Combinaciones potentes entre estos comandos.md",
-    "Linux/Comandos Importantes/Usuarios y Grupos.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
