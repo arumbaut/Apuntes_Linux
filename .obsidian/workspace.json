@@ -64,9 +64,24 @@
               "icon": "lucide-file",
               "title": "TLDR alternativa a man mas simple"
             }
+          },
+          {
+            "id": "af511b60a296c92e",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+                "bFile": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Fuzzing de directorios Enumeracion de Usuarios"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -237,9 +252,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33a1ac7c0bbc241b",
+  "active": "af511b60a296c92e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Linux/TLDR alternativa a man mas simple.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
+    "Linux/Nmap.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "2025-07-17.md",
     "Infortec/Usuarios/Usuario ftp.md",
@@ -259,16 +281,9 @@
     "Linux/SED.md",
     "Linux/HEAD y TAIL.md",
     "Linux/TAR.md",
-    "Linux/FIND.md",
-    "Linux/Comandos Importantes/Cambiar el UID de un usuario en Linux y el GUID a un Grupo.md",
-    "Linux/Comandos Importantes/Usuarios y Grupos.md",
-    "Infortec/Filesystems/Proceso Extender un filesystem.md",
-    "Linux/Comandos Importantes/Generar un par de claves SSH.md",
-    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
-    "Linux/Comandos Importantes/Vim Cheat Sheet.md",
     "Linux/Comandos Importantes/POWERSHELL"
   ]
 }
