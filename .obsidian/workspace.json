@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -281,8 +282,10 @@
   },
   "active": "ce592ca7f160b459",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+    "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Notas del Curso.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Webshell con php.md",
+    "Tips Administracion/Cursos Infortec/Forense en sistemas Linux",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
@@ -306,7 +309,6 @@
     "Infortec/Comando para hacer pruebas con los passwords de los usuarios.md",
     "Infortec/Alias Importantes en ADM00001.md",
     "Infortec/Usuarios/Revisar los usuarios que faltan en las Maquinas.md",
-    "Infortec/Usuarios/Resetear la password en todas la maquinas.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
