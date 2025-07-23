@@ -1,5 +1,18 @@
 ### 1. Variables de entorno persistentes (a nivel de usuario o sistema)
 
+Ver todas las Variables 
+```
+Get-ChildItem Env:
+```
+
+##  Filtrar solo las variables definidas por el **usuario actual**
+
+
+```
+# Ver variables de entorno creadas/modificadas por el usuario (perfil de usuario) Get-ChildItem Env: | Where-Object { $_.Name -match "USERNAME|USERPROFILE|APPDATA|LOCALAPPDATA" }`
+```
+
+
 Para que una variable de entorno se mantenga después de reiniciar, debes definirla en el sistema o en el perfil de usuario.
 
 #### Maneras de definir variables persistentes:
@@ -31,11 +44,11 @@ Para que una variable de entorno se mantenga después de reiniciar, debes defini
 
 ## Resumen rápido
 
-|Tipo|Se pierde al cerrar|Persiste tras reiniciar?|
-|---|---|---|
-|`$env:VAR = valor`|Sí|No|
-|`[Environment]::SetEnvironmentVariable("VAR", "valor", "User")`|No|Sí|
-|Variables GUI en sistema o usuario|No|Sí|
+| Tipo                                                            | Se pierde al cerrar | Persiste tras reiniciar? |
+| --------------------------------------------------------------- | ------------------- | ------------------------ |
+| `$env:VAR = valor`                                              | Sí                  | No                       |
+| `[Environment]::SetEnvironmentVariable("VAR", "valor", "User")` | No                  | Sí                       |
+| Variables GUI en sistema o usuario                              | No                  | Sí                       |
 
 ---
 
@@ -72,3 +85,9 @@ $destinoIP = $env:DESTINO_IP
 - Para que las variables estén disponibles, **abre una nueva sesión PowerShell después de crearlas**.
     
 - Si ya tenías una sesión abierta cuando las creaste, no las verás hasta que abras una nueva.
+
+Eliminar una variable de entorno **temporal (solo en la sesión actual)**
+
+```
+Remove-Item Env:MIVAR
+```
