@@ -71,16 +71,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
+                "file": "Linux/sshfs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ejercicios Practico"
+              "title": "sshfs"
+            }
+          },
+          {
+            "id": "19a8b8fe1b87b9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Script de coneccion"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -137,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 434.5
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -252,10 +265,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "830cc3cf29d71cb5",
+  "active": "19a8b8fe1b87b9a0",
   "lastOpenFiles": [
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
+    "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
+    "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Linux/sshfs.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
     "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
     "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
     "Infortec/CRQs 1/Desmontaje NFS/Desmontaje sencillo.md",
@@ -264,7 +283,6 @@
     "Infortec/Historico/Consulta historico.md",
     "Infortec/Comando para hacer pruebas con los passwords de los usuarios.md",
     "Infortec/Alias Importantes en ADM00001.md",
-    "Infortec/Usuarios/Usuario ftp.md",
     "Infortec/Usuarios/Revisar los usuarios que faltan en las Maquinas.md",
     "Infortec/Usuarios/Resetear la password en todas la maquinas.md",
     "Infortec/Abrir casos con soporte/WEBS APERTURA DE CASOS.md",
@@ -275,11 +293,6 @@
     "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
     "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
     "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
-    "Tips Administracion/Cursos Infortec/MetaSploit/Metasploit.md",
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
-    "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
-    "Linux/Nmap.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
