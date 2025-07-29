@@ -78,9 +78,24 @@
               "icon": "lucide-file",
               "title": "Comandos par el Hardware"
             }
+          },
+          {
+            "id": "854b76dbc25426de",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
+                "bFile": "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Crear Variables Globales en PWs"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,11 +266,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af511b60a296c92e",
+  "active": "854b76dbc25426de",
   "lastOpenFiles": [
-    "Linux/TLDR alternativa a man mas simple.md",
-    "Linux/Comandos par el Hardware.md",
     "conflict-files-obsidian-git.md",
+    "Linux/Comandos par el Hardware.md",
+    "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Notas del Curso.md",
+    "Tips Administracion/Cursos Infortec/Forense en sistemas Linux",
+    "Tips Administracion/Cursos Infortec/Ethical Hacking/Webshell con php.md",
+    "Linux/sshfs.md",
+    "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
+    "Linux/TLDR alternativa a man mas simple.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
@@ -276,10 +296,6 @@
     "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
     "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
     "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
-    "Linux/AWK.md",
-    "Linux/CUT.md",
-    "Linux/SED.md",
-    "Linux/HEAD y TAIL.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
