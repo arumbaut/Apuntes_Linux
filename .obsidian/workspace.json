@@ -69,15 +69,14 @@
             "id": "af511b60a296c92e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
-                "bFile": "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Linux/Comandos par el Hardware.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Fuzzing de directorios Enumeracion de Usuarios"
+              "icon": "lucide-file",
+              "title": "Comandos par el Hardware"
             }
           }
         ],
@@ -254,8 +253,9 @@
   },
   "active": "af511b60a296c92e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Linux/TLDR alternativa a man mas simple.md",
+    "Linux/Comandos par el Hardware.md",
+    "conflict-files-obsidian-git.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Seguridad de Aplicaciones Webs.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Fuzzing de directorios Enumeracion de Usuarios.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/FingerPrinting.md",
@@ -280,7 +280,6 @@
     "Linux/CUT.md",
     "Linux/SED.md",
     "Linux/HEAD y TAIL.md",
-    "Linux/TAR.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
