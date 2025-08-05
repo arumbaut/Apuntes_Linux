@@ -97,32 +97,18 @@
             "id": "ce592ca7f160b459",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Autopsy"
-            }
-          },
-          {
-            "id": "6febf3cecb735cc4",
-            "type": "leaf",
-            "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
+                "aFile": "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
+                "bFile": "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "title": "Diff: Script de coneccion"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -293,10 +279,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6febf3cecb735cc4",
+  "active": "ce592ca7f160b459",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
+    "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
+    "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Infortec/Usuarios/Creacion de Usuarios..md",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
+    "Infortec/Consultas remedy/RFS abiertas.md",
+    "Infortec/Consultas remedy/RFS Cerradas.md",
+    "conflict-files-obsidian-git.md",
     "Linux/Comandos par el Hardware.md",
     "Tips Administracion/Splunk/Instalacion de Splunk.md",
     "Tips Administracion/Splunk",
@@ -310,19 +304,11 @@
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Linux/Combinaciones potentes entre estos comandos.md",
-    "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
-    "Infortec/Usuarios/Usuario ftp.md",
-    "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
-    "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
     "Linux/Comandos Importantes/Coamando sort.md",
     "Linux/Comandos Importantes/Comando para contar lineas caracteres y Bytes.md",
-    "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
     "Linux/sshfs.md",
     "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
     "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
-    "Infortec/CRQs 1/Desmontaje NFS/Desmontaje sencillo.md",
-    "Infortec/CRQs 1/Ampliacion de vg/Ampliacion LUNS.md",
-    "Infortec/Historico/Consulta historico root.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",

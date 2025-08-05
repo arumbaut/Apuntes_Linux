@@ -1,13 +1,7 @@
 function conect {
-
     param($destino)
-
-  
-
     if (-not $destino) {
-
         Write-Host "Uso: conect <nombre_maquina>"
-
         return
 
     }
