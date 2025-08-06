@@ -83,15 +83,14 @@
             "id": "854b76dbc25426de",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
-                "bFile": "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Linux/Find.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Crear Variables Globales en PWs"
+              "icon": "lucide-file",
+              "title": "Find"
             }
           }
         ],
@@ -268,6 +267,7 @@
   },
   "active": "854b76dbc25426de",
   "lastOpenFiles": [
+    "Linux/Find.md",
     "conflict-files-obsidian-git.md",
     "Linux/Comandos par el Hardware.md",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Notas del Curso.md",
@@ -295,7 +295,6 @@
     "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
     "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
     "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
-    "Infortec/Usuarios/Apuntes usuarios/Alta usuario masiva.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",

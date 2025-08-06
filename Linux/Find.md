@@ -1,0 +1,1 @@
+find . -type f \( -name "*.ova" -o -name "*.vmdk" \)
