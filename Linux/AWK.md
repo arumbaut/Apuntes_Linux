@@ -42,3 +42,21 @@ Convertir el archivo `/etc/passwd` a formato CSV:
 ```
 awk -F: '{print $1","$3","$4","$6}' /etc/passwd > usuarios.csv
 ```
+
+Ver porcentaje de uso del ram
+```
+free | awk '/Mem:/ {printf("RAM usada: %.2f%%\n", $3/$2 * 100)}'
+```
+
+
+Ver porcentaje de uso del swap 
+```
+free | awk '/Swap:/ {if ($2 != 0) printf("Swap usada: %.2f%%\n", $3/$2 * 100); else print "Swap no está habilitada."}'
+```
+
+### **Comando combinado (RAM + Swap)**
+
+```
+free | awk ' /Mem:/ {     printf("RAM usada: %.2f%%\n", $3/$2 * 100) } /Swap:/ {     if ($2 != 0)         printf("Swap usada: %.2f%%\n", $3/$2 * 100)     else         print "Swap no está habilitada." }'
+```
+

@@ -94,17 +94,17 @@
             }
           },
           {
-            "id": "ce592ca7f160b459",
+            "id": "0f8b7e9cae824886",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
-                "bFile": "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
-                "aRef": ""
+                "file": "Infortec/Usuarios/Creacion de Usuarios..md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Script de coneccion"
+              "icon": "lucide-file",
+              "title": "Creacion de Usuarios."
             }
           }
         ],
@@ -140,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "groupadd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +161,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -279,14 +280,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce592ca7f160b459",
+  "active": "0f8b7e9cae824886",
   "lastOpenFiles": [
+    "Infortec/Sobre consumo de la swap.md",
+    "Linux/AWK.md",
+    "Infortec/Usuarios/Creacion de Usuarios..md",
+    "Infortec/Filesystems/Proceso Extender un filesystem.md",
+    "Infortec/RSA/Coneccion por RSA.md",
+    "Infortec/Inventario en ADM01/Inventario fisico orange.md",
+    "Infortec/Usuarios/Usuario ftp.md",
+    "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
     "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
     "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
     "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
-    "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
-    "Infortec/Usuarios/Usuario ftp.md",
-    "Infortec/Usuarios/Creacion de Usuarios..md",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
     "Infortec/Consultas remedy/RFS abiertas.md",
     "Infortec/Consultas remedy/RFS Cerradas.md",
@@ -304,11 +310,6 @@
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ejercicios Practico.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
     "Linux/Combinaciones potentes entre estos comandos.md",
-    "Linux/Comandos Importantes/Coamando sort.md",
-    "Linux/Comandos Importantes/Comando para contar lineas caracteres y Bytes.md",
-    "Linux/sshfs.md",
-    "Infortec/CRQs 1/Parcheos/Parcheo Fisicas.md",
-    "Infortec/CRQs 1/Parcheos/Parcheo virtuales.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
