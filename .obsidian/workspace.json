@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Find.md",
+                "file": "Linux/Privilegios Sudo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Find"
+              "title": "Privilegios Sudo"
             }
           }
         ],
@@ -126,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parcheo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 272.5004348754883
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -267,6 +267,8 @@
   },
   "active": "854b76dbc25426de",
   "lastOpenFiles": [
+    "Linux/Comandos Importantes/Vim Cheat Sheet.md",
+    "Linux/Privilegios Sudo.md",
     "Linux/Find.md",
     "conflict-files-obsidian-git.md",
     "Linux/Comandos par el Hardware.md",
@@ -293,8 +295,6 @@
     "Infortec/Filesystems/Proceso Crear un file sistem.md",
     "Infortec/Usuarios/Creacion de Usuarios..md",
     "Infortec/Usuarios/Apuntes usuarios/Usuarios.md",
-    "Infortec/Usuarios/Apuntes usuarios/Usuario no caduque pass.md",
-    "Infortec/Usuarios/Apuntes usuarios/Enjaular usuarios.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
