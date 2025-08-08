@@ -99,13 +99,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Linux/du.md",
-                "bFile": "Linux/du.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: du"
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -282,11 +281,11 @@
   },
   "active": "4af8277b339c8a89",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Linux/df.md",
     "Linux/du.md",
+    "conflict-files-obsidian-git.md",
     "Linux/GREP.md",
     "Linux/GETENT.md",
-    "Linux/Comandos Importantes/df.md",
     "Linux/AWK 30 comandos utiles.md",
     "Clippings/ChatGPT.md",
     "Linux/Comandos Importantes/GREP.md",
