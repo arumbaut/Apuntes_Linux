@@ -220,3 +220,10 @@ grep --color=always -e "adrian" -e "pepe" /etc/passwd
 ### Nota:
 
 Esta configuración afecta a la sesión actual del shell. Para que sea permanente, añade la línea `export GREP_COLORS='mt=34'` en tu `~/.bashrc` o archivo de configuración del shell.
+
+Que empiece por ese nombre
+```
+grep -E '^nombre_del_grupo:' /etc/group
+
+grep -E '^TLV_ORANGE' /etc/passwd
+```

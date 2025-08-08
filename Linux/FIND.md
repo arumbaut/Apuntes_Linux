@@ -3,7 +3,18 @@ Encontrar rutas especifacas
 find / -type d -path "*/Cargas/JAZZPLAT/Guadalajara/Auditoria" 2>/dev/null
 ```
 
+Encontrar carpetas que pertenezcana un grupo especifico
+```
+find /ruta/de/la/carpeta -type d -group lolo
 
+find /ruta/de/la/carpeta -group lolo ·busca todo
+
+```
+
+Encontrar carpetas que pertenezcana un usuario especifico
+```
+find /ruta/de/la/carpeta -type d -user nombre_usuario
+```
 ### **Buscar por nombre de archivo**
 
 ```
@@ -31,6 +42,37 @@ find /ruta -size +100M     # Archivos mayores a 100 MB
 find /ruta -size -10k      # Archivos menores a 10 KB
 ```
 
+Buscar archivos y ordenar por tamaño
+```
+Opcion 1
+find . -type f -exec du -b {} + | sort -nr
+
+Opcion2
+find . -type f -exec stat --format="%s %n" {} + | sort -nr
+
+Limitar la salida a los 10 archivos más grandes:
+
+`find . -type f -exec du -b {} + | sort -nr | head -n 10`
+```
+
+
+Buscar directrios grandes
+```
+du -sh * | sort -hr
+
+Si quieres incluir subdirectorios recursivamente:
+
+`du -h --max-depth=1 | sort -hr`
+
+Toda la jerarquía (sin limitar a nivel 1):
+
+`du -h | sort -hr`
+
+Ver el **top 10 directorios más grandes**:
+
+`du -h --max-depth=1 | sort -hr | head -n 10`
+
+```
 ### **Buscar por fecha de modificación/acceso/cambio**
 
 ```
