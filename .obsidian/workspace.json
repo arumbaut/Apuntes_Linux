@@ -92,24 +92,9 @@
               "icon": "lucide-file",
               "title": "Privilegios Sudo"
             }
-          },
-          {
-            "id": "24eeb4cbd462b96b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Tips Administracion/Splunk/Instalacion de Splunk.md",
-                "bFile": "Tips Administracion/Splunk/Instalacion de Splunk.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Instalacion de Splunk"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -280,7 +265,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24eeb4cbd462b96b",
+  "active": "fc9180c5b26cb213",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Linux/Privilegios Sudo.md",
