@@ -83,14 +83,14 @@
             "id": "854b76dbc25426de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Linux/Privilegios Sudo.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Privilegios Sudo"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -265,10 +265,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc9180c5b26cb213",
+  "active": "854b76dbc25426de",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Linux/Comandos Importantes/GREP.md",
     "Linux/Privilegios Sudo.md",
+    "conflict-files-obsidian-git.md",
     "Tips Administracion/Splunk/Instalacion de Splunk.md",
     "Tips Administracion/Splunk",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
@@ -295,7 +296,6 @@
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md",
     "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense Avanzado en sistemas Linux.md",
-    "Infortec/Filesystems/Proceso Crear un file sistem.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",
