@@ -92,9 +92,24 @@
               "icon": "diff",
               "title": "Diff: workspace.json"
             }
+          },
+          {
+            "id": "4af8277b339c8a89",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Linux/du.md",
+                "bFile": "Linux/du.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: du"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,11 +280,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "854b76dbc25426de",
+  "active": "4af8277b339c8a89",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Linux/du.md",
+    "Linux/GREP.md",
+    "Linux/GETENT.md",
+    "Linux/Comandos Importantes/df.md",
+    "Linux/AWK 30 comandos utiles.md",
+    "Clippings/ChatGPT.md",
     "Linux/Comandos Importantes/GREP.md",
     "Linux/Privilegios Sudo.md",
-    "conflict-files-obsidian-git.md",
     "Tips Administracion/Splunk/Instalacion de Splunk.md",
     "Tips Administracion/Splunk",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
@@ -289,13 +310,7 @@
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Descubrimiento Pasivo.md",
     "Linux/Nmap.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking/Ethical Hacking Ampliando conceptos.md",
-    "2025-07-17.md",
-    "Infortec/Usuarios/Usuario ftp.md",
-    "Linux/Comandos Importantes/getent.md",
-    "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense en entornos Windows – Evidencias de ejecución.md",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
-    "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense básico en sistemas Linux.md",
-    "Tips Administracion/Cursos Infortec/Analisis Forense/Análisis forense Avanzado en sistemas Linux.md",
     "Tips Administracion/Cursos Infortec/MetaSploit",
     "Tips Administracion/Cursos Infortec/Analisis Forense",
     "Tips Administracion/Cursos Infortec",

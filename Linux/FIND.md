@@ -1,85 +1,142 @@
-Encontrar rutas especifacas
-```
-find / -type d -path "*/Cargas/JAZZPLAT/Guadalajara/Auditoria" 2>/dev/null
-```
+find . -type f \( -name "*.ova" -o -name "*.vmdk" \)
+
+## 🔍 **1. Buscar archivos por nombre**
+
+`find /ruta -name "archivo.txt"`
+
+> Búsqueda sensible a mayúsculas/minúsculas.
+
+---
+
+## 🔍 **2. Buscar archivos ignorando mayúsculas**
+
+bash
+
+CopiarEditar
+
+`find /ruta -iname "archivo.txt"`
+
+---
+
+## 🗑️ **3. Buscar y eliminar archivos**
+
+`find /ruta -name "*.log" -type f -delete`
+
+> Elimina todos los `.log`.
+
+---
+
+## 🕑 **4. Buscar archivos modificados en los últimos 7 días**
 
 
-### **Buscar por nombre de archivo**
+`find /ruta -type f -mtime -7`
 
-```
-find /ruta -name "archivo.txt"
-```
+---
 
-Busca un archivo con nombre exacto en una ruta específica.
+## 🕑 **5. Buscar archivos no modificados en 30 días**
 
-```
-find /ruta -iname "archivo.txt"
-```
+`find /ruta -type f -mtime +30`
 
-### **Buscar por tipo de archivo**
+---
 
-```
-find /ruta -type f     # Archivos normales 
-find /ruta -type d     # Directorios 
-find /ruta -type l     # Enlaces simbólicos
-```
-
-### **Buscar por tamaño**
-
-```
-find /ruta -size +100M     # Archivos mayores a 100 MB 
-find /ruta -size -10k      # Archivos menores a 10 KB
-```
-
-### **Buscar por fecha de modificación/acceso/cambio**
-
-```
-find /ruta -mtime -7       # Modificados en los últimos 7 días 
-find /ruta -atime +30      # Accedidos hace más de 30 días 
-find /ruta -ctime 0        # Cambiados hoy
-```
-
-### **Buscar por permisos**
-
-```
-find /ruta -perm 644       # Archivos con permisos exactos 644 
-find /ruta -perm -4000     # Archivos con SUID activo
-```
-
-### **Buscar por propietario o grupo**
-
-```
-find /ruta -user usuario 
-find /ruta -group grupo
-```
-
-### **Ejecutar comandos sobre los archivos encontrados**
-
- Borra todos los archivos `.log`.
-```
-find /ruta -name "*.log" -exec rm -f {} \;
-```
+## 📁 **6. Buscar directorios vacíos**
 
 
-Cambia permisos a todos los archivos encontrados.
-```
-find /ruta -type f -exec chmod 644 {} \;
-```
+`find /ruta -type d -empty`
 
-### **Buscar archivos vacíos**
+---
 
-```
-find /ruta -type f -empty
-```
+## 🗃️ **7. Buscar archivos vacíos**
 
-### **Limitar profundidad de búsqueda**
 
-```
-find /ruta -maxdepth 1 -name "*.conf"
-```
+`find /ruta -type f -empty`
 
-### **Combinar múltiples condiciones**
+---
 
-```
-find /ruta \( -name "*.log" -o -name "*.bak" \) -type f -delete
-```
+## 🔥 **8. Buscar y eliminar archivos vacíos**
+
+`find /ruta -type f -empty -delete`
+
+---
+
+## 🧹 **9. Buscar archivos temporales y borrarlos**
+
+
+`find /tmp -type f -name "*.tmp" -delete`
+
+---
+
+## 📦 **10. Buscar archivos mayores a 500 MB**
+
+`find /ruta -type f -size +500M`
+
+---
+
+## 🔑 **11. Buscar archivos con permisos peligrosos (777)**
+
+
+`find /ruta -type f -perm 0777`
+
+---
+
+## 🛡️ **12. Buscar archivos sin dueño**
+
+`find /ruta -type f -nouser`
+
+---
+
+## 🛡️ **13. Buscar archivos sin grupo**
+
+
+`find /ruta -type f -nogroup`
+
+---
+
+## 🧨 **14. Buscar archivos ejecutables**
+
+
+`find /ruta -type f -executable`
+
+---
+
+## 🧰 **15. Buscar por propietario**
+
+
+`find /ruta -type f -user nombre_usuario`
+
+---
+
+## 🧰 **16. Buscar por grupo**
+
+
+`find /ruta -type f -group nombre_grupo`
+
+---
+
+## 🧱 **17. Buscar enlaces simbólicos rotos**
+
+
+`find /ruta -xtype l`
+
+---
+
+## 🔧 **18. Buscar archivos modificados en las últimas X horas**
+
+
+`find /ruta -type f -mmin -60`
+
+> Archivos modificados en la última hora.
+
+---
+
+## 🔄 **19. Buscar y ejecutar un comando (por ejemplo: cambiar permisos)**
+
+
+`find /ruta -type f -name "*.sh" -exec chmod +x {} \;`
+
+---
+
+## 📦 **20. Buscar los 10 archivos más grandes**
+
+
+`find /ruta -type f -exec du -h {} + | sort -hr | head -n 10`
