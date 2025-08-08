@@ -1,229 +1,147 @@
-## ¿Qué es `grep`?
+## 30 comandos esenciales con `grep` (búsqueda y análisis de texto)
 
-`grep` significa **Global Regular Expression Print**. Es un comando que busca patrones en texto o archivos, filtrando líneas que coincidan con esos patrones.
+### 🔍 Búsqueda básica
 
----
+1. Buscar una palabra exacta en un archivo:
 
-## ¿Para qué sirve `grep`?
+`grep "root" /etc/passwd`
 
-- Buscar texto o patrones específicos dentro de uno o varios archivos.
-- Filtrar la salida de otros comandos (por ejemplo, usando pipes `|`).
-- Encontrar errores, mensajes, configuraciones, usuarios, procesos, etc.
-- Ayudar en scripts para automatizar la extracción de información.
+2. Buscar ignorando mayúsculas:
+    
+`grep -i "error" /var/log/syslog`
 
----
+3. Buscar palabra completa:
+    
+`grep -w "Listen" /etc/httpd/conf/httpd.conf`
 
-## Funcionalidades clave y opciones comunes de `grep`
+4. Buscar varias palabras (OR):
+    
+`grep -E "sshd|nginx" /var/log/auth.log`
 
-| Opción | Descripción | Ejemplo |
-| --- | --- | --- |
-| `grep "patrón" archivo` | Busca "patrón" en archivo y muestra líneas coincidentes | `grep "error" /var/log/syslog` |
-| `-i` | Ignorar mayúsculas y minúsculas | `grep -i "error" /var/log/syslog` |
-| `-r` o `-R` | Búsqueda recursiva en directorios | `grep -r "config" /etc/` |
-| `-w` | Coincidir solo palabras completas | `grep -w "root" /etc/passwd` |
-| `-v` | Invertir la búsqueda: muestra líneas que **no** coinciden | `grep -v "root" /etc/passwd` |
-| `-n` | Mostrar número de línea donde aparece la coincidencia | `grep -n "eth0" /etc/network/interfaces` |
-| `-c` | Contar cuántas líneas coinciden | `grep -c "sshd" /var/log/auth.log` |
-| `-l` | Mostrar solo nombres de archivos que contienen coincidencias | `grep -l "passwd" /etc/*` |
-| `-e` | Permite usar varios patrones | `grep -e "error" -e "fail" /var/log/syslog` |
-| `--color=auto` | Resalta la coincidencia en color | `grep --color=auto "root" /etc/passwd` |
-| `-A num` | Mostrar N líneas **después** de la coincidencia | `grep -A 3 "error" logfile.log` |
-| `-B num` | Mostrar N líneas **antes** de la coincidencia | `grep -B 2 "error" logfile.log` |
-| `-C num` | Mostrar N líneas antes y después de la coincidencia | `grep -C 2 "error" logfile.log` |
+5. Buscar líneas que **no** contienen una palabra:
+    
+`grep -v "nologin" /etc/passwd`
 
 ---
 
-## Ejemplos prácticos y avanzados
+### 🧠 Expresiones regulares (regex)
 
-### 1\. Buscar errores en logs
+6. IPs en un log:
+    
+`grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' /var/log/syslog`
 
-```
-grep -i "error" /var/log/syslog
-```
+7. Líneas que empiezan con `#`:
+    
+`grep "^#" /etc/fstab`
 
-### 2\. Buscar procesos que contengan “ssh”
+8. Líneas que terminan en `;`:
+    
+`grep ";$" archivo.conf`
 
-```
-ps aux | grep ssh
-```
+9. Números en archivos de texto:
+    
+`grep -E "[0-9]+" archivo.txt`
 
-### 3\. Buscar múltiples patrones a la vez
-
-```
-grep -E "error|fail|warn" /var/log/syslog
-
-grep -E '^(adrian|lolo|felo|rene):' /etc/group
-```
-
-(`-E` habilita expresiones regulares extendidas)
-
-### 4\. Buscar en todos los archivos de un directorio recursivamente
-
-```
-grep -r "Listen" /etc/apache2/
-```
-
-### 5\. Mostrar líneas antes y después para contexto
-
-```
-grep -C 3 "Exception" application.log
-```
-
-### 6\. Excluir líneas con un patrón
-
-```
-grep -v "debug" application.log
-```
+10. Palabras con más de 6 letras:
+    
+`grep -E '\b\w{7,}\b' archivo.txt`
 
 ---
 
-## Integración con otros comandos y scripts
+### 🔄 Recursión y contexto
 
-`grep` es perfecto para combinar con otros comandos usando pipes (`|`):
+11. Buscar en todos los archivos de un directorio:
+    
+`grep -r "PermitRootLogin" /etc/ssh`
 
-- Encontrar el PID de un proceso:
-```
-ps aux | grep nginx | grep -v grep
-```
-- Listar usuarios conectados y filtrar por nombre:
-```
-who | grep juan
-```
+12. Incluir nombre de archivo en la salida:
+    
+`grep -H "fail" /var/log/*`
 
----
+13. Mostrar líneas anteriores y posteriores:
+    
+`grep -C 2 "Failed password" /var/log/auth.log`
 
-## Conclusión
+14. Mostrar 3 líneas antes del match:
+    
+`grep -B 3 "segfault" /var/log/syslog`
 
-`grep` es una herramienta básica, pero extremadamente flexible y poderosa para:
-
-- Analizar logs,
-- Buscar configuraciones,
-- Filtrar salidas de comandos,
-- Ayudar en depuración y automatización.
+15. Mostrar 3 líneas después del match:
+    
+`grep -A 3 "nginx" /var/log/nginx/error.log`
 
 ---
 
-¿Quieres que te prepare una lista con los comandos `grep` más útiles para distintos casos o ejemplos para practicar?
+### 🧮 Conteo y resumen
 
-##### Tú dijiste:
+16. Contar ocurrencias de un patrón:
+    
+`grep -o "error" /var/log/syslog | wc -l`
 
-grep -nie --color=blue "adrian" -e "pepe" /etc/passwd cual es el error aqui
+17. Mostrar solo nombres de archivos con coincidencias:
+    
+`grep -l "bash" /etc/*`
 
-###### ChatGPT Plus
-
-Claro, vamos a ver el comando que escribiste:
-
-```
-grep -nie --color=blue "adrian" -e "pepe" /etc/passwd
-```
-
----
-
-### Problemas detectados:
-
-1. **Orden y uso de opciones mezclado:**
-- `-n`, `-i`, `-e` son opciones que esperan un argumento (`-e` debe ir acompañado de un patrón).
-- `-e` es para especificar un patrón; aquí tienes `"adrian"` justo después de `--color=blue`, que no es correcto.
-2. **Uso incorrecto de `-e`:**
-
-Cuando usas `-e` para especificar patrones múltiples, deberías hacerlo así:
-
-```
-grep -n -i --color=blue -e "adrian" -e "pepe" /etc/passwd
-```
-3. **Opción `--color=blue` no es válida:**
-
-La opción correcta para `--color` es:
-
-- `--color=auto` (para mostrar color solo si la salida es a terminal), o
-- `--color=always` (mostrar color siempre).
-
-No existe `--color=blue` como opción válida.
+18. Mostrar solo los archivos **sin** coincidencias:
+    
+`grep -L "bash" /etc/*`
 
 ---
 
-### Comando corregido:
+### 🛠️ Integrado con otros comandos
 
-```
-grep -ni --color=auto -e "adrian" -e "pepe" /etc/passwd
-```
+19. Buscar procesos en ejecución:
+    
+`ps aux | grep "[s]shd"`
 
----
+20. Buscar conexiones de red:
+    
+`netstat -tunapl | grep ":80"`
 
-### ¿Qué hace este comando corregido?
-
-- `-n`: muestra número de línea.
-- `-i`: ignore mayúsculas/minúsculas.
-- `--color=auto`: resalta coincidencias en color (por defecto en rojo).
-- `-e "adrian"` y `-e "pepe"`: busca líneas que contengan cualquiera de los dos patrones.
-- `/etc/passwd`: archivo donde buscar.
+21. Buscar usuarios conectados por SSH:
+    
+`who | grep "pts"`
 
 ---
 
-Si quieres que la palabra resaltada sea azul, eso no se hace con `--color=blue`, sino con variables de entorno o configuración del terminal, no directamente con `grep`.
+### 🔒 Seguridad y monitoreo
+
+22. Buscar accesos fallidos:
+    
+`grep "Failed password" /var/log/auth.log`
+
+23. Buscar cambios de grupo en sudoers:
+    
+`grep "^%admin" /etc/sudoers`
+
+24. Buscar archivos con contraseñas o claves:
+    
+`grep -r "password" /etc/`
 
 ---
 
-¿Quieres que te explique cómo cambiar el color de resaltado con variables de entorno?
+### 🧩 Combinaciones útiles
 
-##### Tú dijiste:
+25. Filtrar logs por fecha:
+    
+`grep "2025-08-08" /var/log/syslog`
 
-no se puede poner un color especifico
+26. Buscar errores en logs del sistema:
+    
+`grep -i "error" /var/log/syslog`
 
-###### ChatGPT Plus
+27. Ver cambios recientes en cron:
+    
+`grep -i "cron" /var/log/syslog`
 
-Exacto, `grep` **no permite elegir directamente el color específico** con la opción `--color`. Solo puedes activar o desactivar el resaltado con `--color=auto` o `--color=always`.
+28. Buscar conexiones SSH:
+    
+`grep "sshd" /var/log/auth.log`
 
----
+29. Buscar configuraciones comentadas en ficheros:
+    
+`grep "^#" /etc/ssh/sshd_config`
 
-### ¿Cómo funciona el color en `grep`?
-
-- `grep` usa la variable de entorno **`GREP_COLOR`** o **`GREP_COLORS`** para definir cómo se colorean las coincidencias.
-- Por defecto, el color es rojo (u otro color definido por el terminal).
-
----
-
-### ¿Cómo cambiar el color del resaltado en `grep`?
-
-Puedes configurar `GREP_COLORS` para cambiar el color del texto resaltado.
-
-Por ejemplo, para poner el resaltado en azul, puedes hacer:
-
-```
-export GREP_COLORS='mt=34'  # mt=34 es el código ANSI para texto azul
-grep --color=always "adrian" /etc/passwd
-```
-
----
-
-### Ejemplo completo:
-
-```
-export GREP_COLORS='mt=34'  # Azul
-grep --color=always -e "adrian" -e "pepe" /etc/passwd
-```
-
----
-
-### Explicación rápida de códigos de colores ANSI comunes para texto:
-
-- `31`: rojo
-- `32`: verde
-- `33`: amarillo
-- `34`: azul
-- `35`: magenta
-- `36`: cian
-- `37`: blanco
-
----
-
-### Nota:
-
-Esta configuración afecta a la sesión actual del shell. Para que sea permanente, añade la línea `export GREP_COLORS='mt=34'` en tu `~/.bashrc` o archivo de configuración del shell.
-
-Que empiece por ese nombre
-```
-grep -E '^nombre_del_grupo:' /etc/group
-
-grep -E '^TLV_ORANGE' /etc/passwd
-```
+30. Buscar líneas vacías (solo saltos de línea):
+    
+`grep "^$" archivo.txt`

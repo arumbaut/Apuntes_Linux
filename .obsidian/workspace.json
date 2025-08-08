@@ -71,30 +71,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/sshfs.md",
+                "file": "Linux/GREP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sshfs"
-            }
-          },
-          {
-            "id": "19a8b8fe1b87b9a0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Linux/FIND.md",
-                "bFile": "Linux/FIND.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: FIND"
+              "title": "GREP"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 312.5
   },
   "right": {
     "id": "aa993cff856e4bb4",
@@ -265,19 +251,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc9180c5b26cb213",
+  "active": "830cc3cf29d71cb5",
   "lastOpenFiles": [
+    "Linux/du.md",
+    "Linux/AWK 30 comandos utiles.md",
+    "Linux/AWK.md",
+    "Linux/Comandos Importantes/df.md",
+    "Linux/SOR.md",
+    "Linux/SED.md",
+    "Linux/GREP.md",
     "Linux/Find.md",
+    "Clippings/ChatGPT.md",
+    "Linux/Comandos Importantes/Kung Fu Bash Scripting Tricks Resumen.md",
+    "Linux/sshfs.md",
     "Linux/FIND.md",
     "Linux/Comandos Importantes/POWERSHELL/Crear Variables Globales en PWs.md",
     "conflict-files-obsidian-git.md",
     "Linux/Privilegios Sudo.md",
-    "Linux/GREP.md",
     "Linux/Comandos Importantes/Usuarios y Grupos.md",
     "Linux/GETENT.md",
     "Linux/Combinaciones potentes entre estos comandos.md",
-    "Linux/AWK.md",
-    "Linux/sshfs.md",
     "Linux/UNIQ.md",
     "Infortec/Usuarios/Creacion de Usuarios..md",
     "Infortec/Sobre consumo de la swap.md",
@@ -286,13 +279,6 @@
     "Infortec/Inventario en ADM01/Inventario fisico orange.md",
     "Infortec/Usuarios/Usuario ftp.md",
     "Linux/Comandos Importantes/POWERSHELL/Script de coneccion.md",
-    "Linux/Comandos Importantes/POWERSHELL/Powershell crear un scrip y crear un alias.md",
-    "Linux/Comandos Importantes/POWERSHELL/Powershel en Modo debug.md",
-    "Tips Administracion/Cursos Infortec/Forense en sistemas Linux/Autopsy.md",
-    "Infortec/Consultas remedy/RFS abiertas.md",
-    "Infortec/Consultas remedy/RFS Cerradas.md",
-    "Linux/Comandos par el Hardware.md",
-    "Tips Administracion/Splunk/Instalacion de Splunk.md",
     "Tips Administracion/Splunk",
     "Tips Administracion/Cursos Infortec/Forense en sistemas Linux",
     "Tips Administracion/Cursos Infortec/Ethical Hacking",
